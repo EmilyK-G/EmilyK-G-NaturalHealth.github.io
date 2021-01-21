@@ -1,0 +1,30 @@
+.greenbackground {
+    padding: 10px;
+    background-color: green;
+}
+.mainparagraph {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    padding: 30px;
+    letter-spacing: 5px;
+}
+.peachesbackground {
+    background-image: url(../img/Peaches.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+    padding: 100px;
+}
+header > h1 {
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    color: rgba(255, 255, 248, 0.979);
+}
+body {
+    margin: 0.5%;
+    padding: 0.5%;
+}
