@@ -5,78 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natural Health</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
 </head>
 <body>
     <div>
         <header>
-            <div class="greenbackground">
-                <nav class="greenbackground">
-                    <h1 class="greenbackground pagetitle"><a href="#" class="decoration">Natural Health</a></h1>
-                    <ul class="greenbackground">
-                        <li class="greenbackground"><a href="#" class="listformat">Content</a></li>
-                        <li class="greenbackground"><a href="#" class="listformat">Comment</a></li>
-                        <li class="greenbackground"><a href="#" class="listformat">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+            <nav class="headerbackground">
+                <h1 class="pagetitle"><a href="#" class="decoration">Natural Health</a></h1>
+                <ul>
+                    <li class="listspacing"><a href="#" class="listformat">Content</a></li>
+                    <li class="listspacing"><a href="#" class="listformat">Comment</a></li>
+                    <li class="listspacing"><a href="#" class="listformat">Contact</a></li>
+                 </ul>
+            </nav>
         </header>
         <main>
-            <div class="mainparagraph peachesbackground">
-                <h2>It is this simple</h2>
-                <P><br/>Discover teas, fruits and vegetables that improve your every-day routine in the way you need.</P>
+            <div class="peachesbackground">
+                <h2 class="mainheader">It is this simple</h2>
+                <P class="mainparagraph"><br/>Discover teas, fruits and vegetables that improve your every-day routine in the way you need.</P>
             </div>
         </main>
         <section class="organizearticles">
             <article>
                 <div>
-                    <h3 class="button floatleft"><br /><br /><a href="#" class="buttontxt">There is a tea for that!</a></h3>
+                    <h3 class="button teabutton"><a href="#"><img /></a></h3>
                 </div>
-                <p class="floatright">
+                <p>
                     Problems falling sleep? Stressful day? Your stomach hurts? These helpful teas will make you feel brand new...
                 </p>
             </article>
             <article>
                 <div>
-                    <h3 class="floatright button"><br /><br /><a href="#" class="buttontxt">Veggies Veggies!</a></h3>
+                    <h3 class="button veggiebutton"><a href="#"><img /></a></h3>
                 </div>
-                <p class="floatleft">
+                <p>
                     Do you need more Vitamin C, B, A, K, etc?... Make a salad that gives you just what you need.
                 </p>
             </article>
             <article>
                 <div>
-                    <h3 class="floatleft button"><br /><br /><a href="#" class="buttontxt">Fruits Fruits Fruits!</a></h3>
+                    <h3 class="button fruitbutton"><a href="#"><img /></a></h3>
                 </div>
-                <p class="floatright">
+                <p>
                     There is more than deliciousness in these sweet and sour world. See what's inside your favorite fruits.
                 </p>
             </article>
             <article>
                 <div>
-                    <h3 class="floatright button"><br /><br /><a href="#" class="buttontxt">Try Mixing!</a></h3>
+                    <h3 class="button mixbutton"><a href="#"><img /></a></h3>
                 </div>
-                <p class="floatleft">
+                <p>
                     Not sure where to start? We'll help you:) Just wait until you taste these amazing combinations!
                 </p>
             </article>
         </section>
-        <section>
-            <form>
-                <label>Name</label>
-                <input type="text" placeholder="Your name here" required="required"/>
+        <section class="commentlyout">
+            <h4 class="commenttext">Tell us what you think...</h4>
+            <form action="#formspree" method="¨GET">
+                <label class="formtext">Name:</label>
+                <input type="text" placeholder="Your name here" required="required" class="forminput"/>
                 <br />
                 <br />
-                <label>Age</label>
-                <input type="text" placeholder="Your age here" required="required"/>
+                <label class="formtext">Age:</label>
+                <input type="number" placeholder="Your age here" required="required" class="forminput"/>
                 <br />
                 <br />
-                <label>E-mail</label>
-                <input type="text" placeholder="Your e-mail here"/>
+                <label class="formtext">E-mail:</label>
+                <input type="text" placeholder="Your e-mail here" class="forminput"/>
                 <br />
                 <br />
-                <label>Comment</label> <br />
-                <input type="text" placeholder="Write your comment here..." required="required" class="commentsection"/>
-                <input type="submit" />
+                <label class="formtext">Comment:</label>
+                <input type="text" placeholder="Write your comment here..." required="required" class="forminput"/><br />
+                <button class="submitbutton">Submit</button>
             </form>
         </section>
     </div>
