@@ -1,54 +1,79 @@
-    .headerbackground {
-        display: flex;
-        justify-content: space-between;
-        margin: 0px 0px;
-        padding: 1% 3%;
+
+     body {
+         margin: 0;
+         padding: 0;
+     }
+     div.container {
+         display: flex;
+         justify-content: space-around;
+     }
+    nav.headerbackground {
+        margin: 0;
+        padding: 20px 50px;
         background-color: green;
         font-family: 'Handlee', cursive;
         font-size: 45px;
-        height: 130px;
+        height: 90px;
+        position: fixed;
+        opacity: 80%;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
     }
     .headerbackground:hover {
         opacity: 90%;
     }
-    .pagetitle {
+    h1.pagetitle {
         font-size: 150%;
-        float: left;
+        text-shadow: 2px 2px 4px rgba(166, 168, 165, 0.979);
+        display: flex;
+        align-self: center;
     }
     .pagetitle:hover {
         text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.582);
+        font-size: 155%;
     }
-    .decoration {
+    a.decoration {
         text-decoration: none;
         color: rgb(251, 255, 255);
-        margin-bottom: 30px;
     }
-    li {
-        display: inline;
-        float: right;
-        padding: 0px 5px;
+    ul.headerlist {
+        display: flex;
+        justify-content: right;
+        text-align: right;
     }
     .listformat {
+        display: flex;
+        align-self: center;
+        text-align: right;
         color: rgb(250, 250, 244);
         text-decoration: none ;
         font-size: 100%;
     }
     .listspacing {
         margin: 0 30px;
+        display: inline;
+        display: flex;
+        align-self: center;
     }
     .listformat:hover {
-        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.582);;
+        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.582);
+        font-size: 105%;
     }
     .mainheader {
+        display:block;
         text-align: center;
         font-family: 'Handlee', cursive;
-        font-weight: bold;
-        font-size: 350%;
-        margin: 0px;
-        padding-top: 25%;
+        font-weight: 5px;
+        font-size: 200%;
+        margin: 0;
+        padding-top: 40%;
         letter-spacing: 5px;
-        color: rgba(8, 8, 8, 0.788);
-        text-shadow: 2px 2px 4px rgba(255, 255, 248, 0.979);
+        /*color: rgba(8, 8, 8, 0.788);
+        text-shadow: 2px 2px 4px rgba(255, 255, 248, 0.979);*/
+        color: rgba(70, 1, 1, 0.986);
+        text-shadow: 3px 3px 3px rgba(241, 240, 238, 0.938);
+        border-bottom: dotted 2px rgba(70, 1, 1, 0.986);
     }
     .mainparagraph {
         text-align: center;
@@ -58,7 +83,7 @@
         margin: 0px;
         padding-top: 0;
         letter-spacing: 5px;
-        color: rgba(8, 8, 8, 0.788);
+        color: rgba(133, 7, 7, 0.993);
         text-shadow: 2px 2px 4px rgba(255, 255, 248, 0.979);
     }
     .peachesbackground {
@@ -67,50 +92,47 @@
         background-size: cover;
         background-attachment: scroll;
         background-position: center;
-        background-size: 200%;
-        height: 100%;
-       
+        background-size: 100% 100%;
         padding: 10%;
         margin: 0px;
-    }
-    .peachesbackground:hover {
-        opacity: 90%;
-    }
-    body {
-        margin: 0%;
-        padding: 0%;
+        height: 900px;
     }
     article {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         border: 1px solid rgba(230, 233, 230, 0.788);
         margin: 0;
-        padding: 5%;
+        padding: 10%;
         font-size: 20px;
+        background-color: white;
     }
-    .organizearticles {
+    section.organizearticles {
+        display: block;
         width: 100%;
         height: 100%;
         background-color: white;
     }
    
-    h3 {
-        display: flex;
-        align-items: center;
+    button {
+        border: 0;
     }
     article > p {
-        padding: 10% 0 0 10%;
+        display: block;
+        padding: 40px;
+        margin: 75px;
         text-align: center;
-        font-size: 200%;
+        font-size: 150%;
         color: rgba(73, 73, 73, 0.918);
         font-family: 'Handlee', cursive;
     }  
     .button {
+        display: block;
         box-shadow: 5px 7px 7px 0px rgba(0,0,0,0.63);
         cursor: pointer;
         border-radius: 15px;
-        width: 700px;
-        height: 500px;
+        width: 500px;
+        height: 100%;
+        background-size: cover;
     }
     .teabutton {
         background-image: url(../img/teapro.png);
@@ -130,6 +152,8 @@
     }
     .button:hover {
         opacity: 50%;
+        height: 105%;
+        width: 520px;
     }
     .commentlyout {
         margin: 0;
@@ -146,26 +170,34 @@
         text-align: left;
         text-shadow: 1px 1px 2px rgba(255, 254, 254, 0.603);
     }
+    
     .forminput {
-        width: 500px;
-        height: 50px;
+        width: 50%;
         text-align:left;
-        border: thin solid rgba(77, 76, 76, 0.664);
+        border: none;
         background: rgba(252, 251, 251, 0.466);
-        margin: 20px;
+        margin: 10px;
         border-radius: 15px;
+        padding: 20px;
+        box-shadow: 2px 2px 4px 3px rgba(163, 161, 161, 0.65);
+        resize: vertical;
     }
-    .formtext {
-
+    .forminput:hover {
+        padding: 22px;
+    }
+    .commentinput {
+        padding: 50px 20px;
+    }
+    .commentinput:hover {
+        padding: 54px 22px;
     }
     .submitbutton {
         font-family: 'Handlee', cursive;
         font-size: large;
         background: green;
         color: white;
-        height: 50px;
-        width: 100px;
-        margin: 50px;
+        padding: 15px 30px;
+        margin: 10px;
         box-shadow: 2px 2px 4px 3px rgba(163, 161, 161, 0.65);
         border-radius: 15px;
         cursor: pointer;
@@ -173,6 +205,7 @@
     }
     .submitbutton:hover {
         box-shadow: inset 10px 27px 45px 0px rgba(255,255,255,0.81);
+        padding: 16px 32px;
     }
     .commenttext {
         color: white;
@@ -182,12 +215,8 @@
         letter-spacing: 3px;
         text-shadow: 2px 2px 4px rgba(166, 168, 165, 0.979);
     }
-
     footer {
         background-color: rgb(1, 102, 1);
-        height: 250px;
-        margin: 0;
-        padding: 50px 0px 0px 0px;
         color: rgba(255, 255, 248, 0.842);
         opacity: 90%;
         font-style: italic;
@@ -195,6 +224,16 @@
         font-weight: lighter;
         text-align: center;
         letter-spacing: 2px;
+        padding: 20px;
+    }
+    .footerlist {
+        display: block;
+        justify-content: center space-around;
+    }
+    .footerformat {
+            list-style: none;
+            margin: 0%;
+            padding: 20px;
     }
 
     @media (max-width: 1100px) {
