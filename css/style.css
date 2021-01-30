@@ -1,410 +1,374 @@
-
-     body {
-         margin: 0;
-         padding: 0;
-     }
-     div.container {
-         display: flex;
-         justify-content: space-around;
-     }
-    nav.headerbackground {
-        margin: 0;
-        padding: 20px 50px;
-        background-color: green;
-        font-family: 'Handlee', cursive;
-        font-size: 45px;
-        height: 90px;
-        position: fixed;
-        opacity: 80%;
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-    }
-    .headerbackground:hover {
-        opacity: 90%;
-    }
-    h1.pagetitle {
-        font-size: 150%;
-        text-shadow: 2px 2px 4px rgba(166, 168, 165, 0.979);
-        display: flex;
-        align-self: center;
-    }
-    .pagetitle:hover {
-        text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.582);
-        font-size: 155%;
-    }
-    a.decoration {
-        text-decoration: none;
-        color: rgb(251, 255, 255);
-    }
-    ul.headerlist {
-        display: flex;
-        justify-content: right;
-        text-align: right;
-    }
-    .listformat {
-        display: flex;
-        align-self: center;
-        text-align: right;
-        color: rgb(250, 250, 244);
-        text-decoration: none ;
-        font-size: 100%;
-    }
-    .listspacing {
-        margin: 0 30px;
-        display: inline;
-        display: flex;
-        align-self: center;
-    }
-    .listformat:hover {
-        text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.582);
-        font-size: 105%;
-    }
-    .mainheader {
-        display:block;
-        text-align: center;
-        font-family: 'Handlee', cursive;
-        font-weight: 5px;
-        font-size: 200%;
-        margin: 0;
-        padding-top: 40%;
-        letter-spacing: 5px;
-        /*color: rgba(8, 8, 8, 0.788);
-        text-shadow: 2px 2px 4px rgba(255, 255, 248, 0.979);*/
-        color: rgba(70, 1, 1, 0.986);
-        text-shadow: 3px 3px 3px rgba(241, 240, 238, 0.938);
-        border-bottom: dotted 2px rgba(70, 1, 1, 0.986);
-    }
-    .mainparagraph {
-        text-align: center;
-        font-family: 'Handlee', cursive;
-        font-weight: lighter;
-        font-size: 250%;
-        margin: 0px;
-        padding-top: 0;
-        letter-spacing: 5px;
-        color: rgba(133, 7, 7, 0.993);
-        text-shadow: 2px 2px 4px rgba(255, 255, 248, 0.979);
-    }
-    .peachesbackground {
-        background-image: url(../img/peachesmain.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: scroll;
-        background-position: center;
-        background-size: 100% 100%;
-        padding: 10%;
-        margin: 0px;
-        height: 900px;
-    }
-    article {
-        display: flex;
-        justify-content: space-between;
-        border: 1px solid rgba(230, 233, 230, 0.788);
-        margin: 0;
-        padding: 10%;
-        font-size: 20px;
-        background-color: white;
-    }
-    section.organizearticles {
-        display: block;
-        width: 100%;
-        height: 100%;
-        background-color: white;
-    }
+body {
+    margin: 0;
+    padding: 0;
+}
+div.container {
+    display: flex;
+    justify-content: space-around;
+}
+nav.headerbackground {
+   margin: 0;
+   padding: 20px 50px;
+   background-color: green;
+   font-family: 'Handlee', cursive;
+   font-size: 45px;
+   height: 90px;
+   position: fixed;
+   opacity: 80%;
+   width: 100%;
+   display: flex;
+   justify-content: space-evenly;
+}
+.headerbackground:hover {
+   opacity: 90%;
+}
+h1.pagetitle {
+   font-size: 140%;
+   text-shadow: 2px 2px 4px rgba(166, 168, 165, 0.979);
+   display: flex;
+   align-self: center;
+}
+.pagetitle:hover {
+   text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.582);
+   font-size: 155%;
+}
+a.decoration {
+   text-decoration: none;
+   color: rgb(251, 255, 255);
+   letter-spacing: -2px;
+}
+ul.headerlist {
+   display: flex;
+   justify-content: right;
+   text-align: right;
+}
+.listformat {
+   display: flex;
+   align-self: center;
+   text-align: right;
+   color: rgb(250, 250, 244);
+   text-decoration: none ;
+   font-size: 100%;
+}
+.listspacing {
+   margin: 0 30px;
+   display: inline;
+   display: flex;
+   align-self: center;
+}
+.listformat:hover {
+   text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.582);
+   font-size: 105%;
+}
+.mainheader {
+   display: block;
+   text-align: center;
+   font-family: 'Handlee', cursive;
+   font-weight: bolder;
+   font-size: 200%;
+   margin: 0;
+   padding-top: 40%;
+   letter-spacing: 5px;
+   color: rgb(255, 255, 255);
+   text-shadow: 3px 3px 3px  rgba(70, 1, 1, 0.986);
+   border-bottom: dotted 2px rgba(70, 1, 1, 0.986);
+}
+.mainparagraph {
+   text-align: center;
+   font-family: 'Handlee', cursive;
+   font-weight: lighter;
+   font-size: 250%;
+   margin: 0;
+   padding-top: 0;
+   letter-spacing: 5px;
+   color:  rgba(70, 1, 1, 0.986);
+   text-shadow: 2px 2px 4px rgba(255, 255, 248, 0.979);
+}
+.peachesbackground {
+   background-image: url(../img/peachesmain.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: scroll;
+   background-position: center;
+   background-size: 150%;
+   padding: 10%;
+   margin: 0px;
+   height: 900px;
+}
+div.justifyitems {
    
-    button {
-        border: 0;
-    }
-    article > p {
-        display: block;
-        padding: 40px;
-        margin: 75px;
-        text-align: center;
-        font-size: 150%;
-        color: rgba(73, 73, 73, 0.918);
-        font-family: 'Handlee', cursive;
-    }  
-    .button {
-        display: block;
-        box-shadow: 5px 7px 7px 0px rgba(0,0,0,0.63);
-        cursor: pointer;
-        border-radius: 15px;
-        width: 500px;
-        height: 100%;
-        background-size: cover;
-    }
-    .teabutton {
-        background-image: url(../img/teapro.png);
-        background-position: center;
-    }
-    .veggiebutton {
-        background-image: url(../img/veggiespro.png);
-        background-position: center;
-    }
-    .fruitbutton {
-        background-image: url(../img/fruitspro.png);
-        background-position: center;
-    }
-    .mixbutton {
-        background-image: url(../img/mixpro.png);
-        background-position: center;
-    }
-    .button:hover {
-        opacity: 50%;
-        height: 105%;
-        width: 520px;
-    }
-    .commentlyout {
-        margin: 0;
-        padding: 30px 50px;
-        font-family: 'Handlee', cursive;
-        background-image: linear-gradient(to bottom, rgb(221, 221, 213), rgba(230, 227, 227, 0.664) );
-    }
+}
+article {
+   display: inline-flex;
+   justify-content: space-between;
+   border: 1px solid rgba(230, 233, 230, 0.788);
+   margin: 1px;
+   padding: 10%;
+   font-size: 20px;
+   background-color: white;
+}
+section.organizearticles {
+   display: block;
+   width: 100%;
+   height: 100%;
+   background-color: white;
+}
 
-    form {
-        display: block;
-        font-size: 150%;
-        font-style: italic;
-        color: rgb(0, 0, 0);
-        text-align: left;
-        text-shadow: 1px 1px 2px rgba(255, 254, 254, 0.603);
-    }
-    
-    .forminput {
-        width: 50%;
-        text-align:left;
-        border: none;
-        background: rgba(252, 251, 251, 0.466);
-        margin: 10px;
-        border-radius: 15px;
-        padding: 20px;
-        box-shadow: 2px 2px 4px 3px rgba(163, 161, 161, 0.65);
-        resize: vertical;
-    }
-    .forminput:hover {
-        padding: 22px;
-    }
-    .commentinput {
-        padding: 50px 20px;
-    }
-    .commentinput:hover {
-        padding: 54px 22px;
-    }
-    .submitbutton {
-        font-family: 'Handlee', cursive;
-        font-size: large;
-        background: green;
-        color: white;
-        padding: 15px 30px;
-        margin: 10px;
-        box-shadow: 2px 2px 4px 3px rgba(163, 161, 161, 0.65);
-        border-radius: 15px;
-        cursor: pointer;
-        border: none;
-    }
-    .submitbutton:hover {
-        box-shadow: inset 10px 27px 45px 0px rgba(255,255,255,0.81);
-        padding: 16px 32px;
-    }
-    .commenttext {
-        color: white;
-        font-size: 500%;
-        font-family: 'Handlee', cursive;
-        text-align: left;
-        letter-spacing: 3px;
-        text-shadow: 2px 2px 4px rgba(166, 168, 165, 0.979);
-    }
-    footer {
-        background-color: rgb(1, 102, 1);
-        color: rgba(255, 255, 248, 0.842);
-        opacity: 90%;
-        font-style: italic;
-        font-size: 150%;
-        font-weight: lighter;
-        text-align: center;
-        letter-spacing: 2px;
-        padding: 20px;
-    }
-    .footerlist {
-        display: block;
-        justify-content: center space-around;
-    }
-    .footerformat {
-            list-style: none;
-            margin: 0%;
-            padding: 20px;
-    }
+button {
+   border: 0;
+}
+article > p {
+   display: flex;
+   justify-content: center;
+   padding: 40px;
+   margin: 50px;
+   text-align: center;
+   font-size: 150%;
+   color: rgba(73, 73, 73, 0.918);
+   font-family: 'Handlee', cursive;
+   width: 50%;
+  
+}  
+button.button {
+   display: flex;
+   justify-content: center;
+   box-shadow: 5px 7px 7px 0px rgba(0,0,0,0.63);
+   cursor: pointer;
+   border-radius: 15px;
+   width: 500px;
+   height: 400px;
+   background-size: cover;
+}
+.teabutton {
+   background-image: url(../img/teapro.png);
+   background-position: center;
+}
+.veggiebutton {
+   background-image: url(../img/veggiespro.png);
+   background-position: center;
+}
+.fruitbutton {
+   background-image: url(../img/fruitspro.png);
+   background-position: center;
+}
+.mixbutton {
+   background-image: url(../img/mixpro.png);
+   background-position: center;
+}
+.button:hover {
+   opacity: 50%;
+   height: 410px;
+   width: 51%;
+}
+section.commentlyout {
+   margin: 0;
+   padding: 30px 50px;
+   font-family: 'Handlee', cursive;
+   background-image: linear-gradient(to bottom, rgb(221, 221, 213), rgba(230, 227, 227, 0.664) );
+}
 
-    @media (max-width: 1100px) {
-        .headerbackground {
-            padding: 10px;
-            height: 250px;
-        }
-        .pagetitle {
-            font-size: 120%;
-            float: none;
-            text-align: center;
-        }
-        .decoration {
-            text-decoration: ;
-            color: ;
-        }
-        ul {
-            height: 100px;
-            border: solid none;
-            margin-top: 10px;
-            text-align: center;
-        }
-        li {
-            display: ;
-            float: none;
-            padding: 0;
-        }
-        .listformat {
-            color: ;
-            text-decoration: ;
-            font-size: 70%;
-        }
-        .listspacing {
-            margin: ;
-        }
-        .listformat:hover {
-            font-weight: ;
-        }
-        .mainheader {
-            text-align: ;
-            font-family: ;
-            font-weight: ;
-            font-size: ;
-            margin: ;
-            padding-top: 400px;
-            letter-spacing: 1px;
-            color: ;
-            text-shadow: ;
-        }
-        .mainparagraph {
-            text-align: ;
-            font-family: ;
-            font-weight: ;
-            font-size: ;
-            margin: 70px 0;
-            padding: ;
-            letter-spacing: 1px;
-            color: ;
-            text-shadow: ;
-        }
-        .peachesbackground {
-            background-image: ;
-            background-repeat: ;
-            background-size: ;
-            background-attachment: ;
-            background-position: ;
-            background-size: 300%;
-            height: ;
-            padding: ;
-            margin: ;
-        }
-        body {
-            margin: ;
-            padding: ;
-        }
-        article {
-            display: ;
-            border: ;
-            margin: ;
-            padding: ;
-            font-size: 15px;
-            font-family: ;
-            height: 900px;
-            background-image: linear-gradient(to top, white, rgba(225, 255, 236, 0.856));
-        }
-        .organizearticles {
-            width: ;
-            height: ;
-            background-color: ;
-        }
-       
-        h3 {
-            text-align: ;
-            margin: 50px 35px;
-            padding: 100px 50px;
-            border: ;
-            width: ;
-            height: ;
-            border-radius: ;
-            font-size: 300%;
-            text-shadow: ;
-            font-weight: ;
-        }
-        .floatleft {
-            float:none ;
-        }
-        .floatright {
-            float:none ;
-        }
-        article > p {
-            text-align: ;
-            margin: ;
-            padding: 100px 5px;
-            border: ;
-            width: ;
-            height: ;
-            border-radius: ;
-            font-size: ;
-            color: ;
-        }  
-        .button {
-            background-image: ;
-            -webkit-box-shadow: ; 
-            box-shadow: ;
-            cursor: ;
-        }
-        .button:hover {
-            background: ;
-            opacity: ;
-        }
-        .commentlyout {
-            margin: ;
-            padding: ;
-            font-family: ;
-            background-image: ;
-        }
-    
-        form {
-            font-size: 15px;
-            font-style: ;
-            height: ;
-            text-align: left;
-            margin-top: 100px;
-            margin-bottom: 100px;
-        }
-        .commentinput {
-            width: ;
-            height: ;
-            text-align:;
-            word-wrap: ;
-        }
-        .commenttext {
-            color: ;
-            font-size: 300%;
-            font-family: ;
-            text-align: center;
-            letter-spacing: 4px;
-            text-shadow: ;
-        }
-    
-        footer {
-            background-color: ;
-            height: 200px;
-            margin: ;
-            padding-top: 40px;
-            color: ;
-            opacity: ;
-            font-style: ;
-            font-size: 100%;
-            font-weight: ;
-            text-align: ;
-            letter-spacing: ;
-        }
-    }
+form {
+   display: block;
+   font-size: 150%;
+   font-style: italic;
+   color: rgb(0, 0, 0);
+   text-align: left;
+   text-shadow: 1px 1px 2px rgba(255, 254, 254, 0.603);
+}
+
+.forminput {
+   width: 50%;
+   text-align:left;
+   border: none;
+   background: rgba(252, 251, 251, 0.466);
+   margin: 10px;
+   border-radius: 15px;
+   padding: 20px;
+   box-shadow: 2px 2px 4px 3px rgba(163, 161, 161, 0.65);
+   resize: vertical;
+}
+.forminput:hover {
+   padding: 22px;
+}
+.commentinput {
+   padding: 50px 20px;
+   -ms-text-justify: distribute;
+}
+.commentinput:hover {
+   padding: 54px 22px;
+}
+.submitbutton {
+   font-family: 'Handlee', cursive;
+   font-size: large;
+   background: green;
+   color: white;
+   padding: 15px 30px;
+   margin: 10px;
+   box-shadow: 2px 2px 4px 3px rgba(163, 161, 161, 0.65);
+   border-radius: 15px;
+   cursor: pointer;
+   border: none;
+}
+.submitbutton:hover {
+   box-shadow: inset 10px 27px 45px 0px rgba(255, 255, 255, 0.219);
+   padding: 16px 32px;
+}
+.commenttext {
+   color: white;
+   font-size: 500%;
+   font-family: 'Handlee', cursive;
+   text-align: left;
+   letter-spacing: 3px;
+   text-shadow: 2px 2px 4px rgba(166, 168, 165, 0.979);
+}
+footer {
+   background-color: rgb(1, 102, 1);
+   color: rgba(255, 255, 248, 0.842);
+   opacity: 90%;
+   font-style: italic;
+   font-size: 150%;
+   font-weight: lighter;
+   text-align: center;
+   letter-spacing: 2px;
+   padding: 20px;
+}
+ul.footerlist {
+   display: block;
+   justify-content: center space-around;
+}
+.footerformat {
+       list-style: none;
+       margin: 0%;
+       padding: 20px;
+}
+
+@media (max-width: 1100px) {
+   h1.pagetitle {
+       font-size: 120%;
+   }
+   .pagetitle:hover {
+       text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.582);
+       font-size: 125%;
+   }
+   .listformat {
+       font-size: 60%;
+   }
+   .listformat:hover {
+       text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.582);
+       font-size: 65%;
+   }
+   .listspacing {
+       margin: 0 5px;
+   }
+   .mainheader {
+       font-size: 300%;
+       padding-top: 400px;
+       letter-spacing: 1px;
+   }
+   .mainparagraph {
+       letter-spacing: 1px;
+   }
+   .peachesbackground {
+       background-size: 200%;
+   }
+   div.justifyitems {
+       display: flex;
+       align-items: center;
+   }
+   article {
+       display: block;
+       justify-items: center;
+       padding: 90px 60px;
+       font-size: 15px;
+       background-image: linear-gradient(to top, white, rgba(227, 231, 229, 0.61));
+   }  
+   article > p {
+       display: flex;
+       justify-content: space-evenly;
+       width: 80%;
+       padding: 50px 30px;
+       margin: 30px;
+       text-align: center;
+       font-size: 200%;
+   } 
+   button.button {
+       display: flex;
+       justify-content: space-evenly;
+       width: 100%;
+       height: 300px;
+   }
+   .button:hover {
+       opacity: 30%;
+       width: 101%;
+   }
+
+   form {
+       font-size: 15px;
+       text-align: center;
+   }
+   .commenttext {
+       font-size: 400%;
+       text-align: center;
+       letter-spacing: 4px;
+   }
+
+   footer {
+       font-size: 140%;
+       letter-spacing: 1px;
+       padding: 10px;
+   }
+   .footerformat {
+       padding: 10px;
+   }
+}
+@media (max-width: 675px) {
+   nav.headerbackground {
+       background-color: peachpuff;
+       position: static;
+       display: block;
+       height: fit-content;
+   }
+   ul.headerlist {
+       padding: 0;
+       justify-content: center;
+   }
+   h1.pagetitle {
+       justify-content: center;
+   }
+   .peachesbackground {
+       background-size: cover;
+       height: 450px;
+   }
+   .mainheader {
+       font-size: 200%;
+       padding-top: 200px;
+   }
+   .mainparagraph {
+       font-size: 125%;
+   }
+   article {
+       margin: 0;
+       padding: 5%;
+   }
+   article > p {
+       width: 85%;
+       padding: 0;
+   }
+   section.commentlyout {
+       padding: 1%;
+   }
+   .forminput {
+       width: 70%;
+   }
+   .submitbutton {
+       margin-bottom: 50px;
+   }
+   footer {
+       font-size: 100%;
+       padding: 5px;
+       letter-spacing: 0;
+   }
+   ul.footerlist {
+       padding: 0;
+   }
+}
