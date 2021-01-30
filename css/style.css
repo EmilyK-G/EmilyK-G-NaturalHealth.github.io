@@ -100,9 +100,6 @@ ul.headerlist {
    margin: 0px;
    height: 900px;
 }
-div.justifyitems {
-   
-}
 article {
    display: inline-flex;
    justify-content: space-between;
@@ -197,7 +194,6 @@ form {
 }
 .commentinput {
    padding: 50px 20px;
-   -ms-text-justify: distribute;
 }
 .commentinput:hover {
    padding: 54px 22px;
@@ -346,6 +342,9 @@ ul.footerlist {
    .listformat {
        letter-spacing: -1px;
         font-size: 70%;
+   }
+   .listformat:hover {
+    font-size: 71%;
    }
    .peachesbackground {
        background-size: cover;
