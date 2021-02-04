@@ -34,7 +34,7 @@ h1.pagetitle {
 }
 .pagetitle:hover {
    text-shadow: 4px 4px 4px rgba(255, 255, 255, 0.582);
-   font-size: 155%;
+   font-size: 145%;
 }
 a.decoration {
    text-decoration: none;
@@ -63,7 +63,6 @@ ul.headerlist {
 }
 .listformat:hover {
    text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.582);
-   font-size: 105%;
 }
 .mainheader {
    display: block;
@@ -119,7 +118,7 @@ section.organizearticles {
 button {
    border: 0;
 }
-article > p {
+article > h3 {
    display: flex;
    justify-content: center;
    padding: 40px;
@@ -257,7 +256,6 @@ ul.footerlist {
    }
    .listformat:hover {
        text-shadow: 2px 2px 1px rgba(255, 255, 255, 0.582);
-       font-size: 95%;
    }
    .listspacing {
        margin: 0 10px;
@@ -342,9 +340,6 @@ ul.footerlist {
    .listformat {
        letter-spacing: -1px;
         font-size: 70%;
-   }
-   .listformat:hover {
-    font-size: 71%;
    }
    .peachesbackground {
        background-size: cover;
